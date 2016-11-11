@@ -10,15 +10,13 @@
     <platform>all</platform>
     <summary lang="en">Add-on installation script</summary>
     <description lang="en">Restore a list of add-ons from their online repositories. The repositories from which to fetch the add-ons must be preinstalled.</description>
-    <license>GNU General Public License, v2</license>
+    <license>Apache License 2.0</license>
     <language>en</language>
-    <forum></forum>
     <source>https://github.com/flavien/script.buildrestore</source>
-    <website>Kodi.tv</website>
+    <website>https://github.com/flavien/</website>
     <email>flavien@charlon.net</email>
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
-    <news>Released the initial version</news>
   </extension>
 </addon>
