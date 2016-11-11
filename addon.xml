@@ -8,8 +8,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">Automated build restore script</summary>
-    <description lang="en">Restore a build from a list of add-ons</description>
+    <summary lang="en">Add-on installation script</summary>
+    <description lang="en">Restore a list of add-ons from their online repositories. The repositories from which to fetch the add-ons must be preinstalled.</description>
     <license>GNU General Public License, v2</license>
     <language>en</language>
     <forum></forum>
