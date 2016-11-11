@@ -25,7 +25,7 @@ def execute():
 
     root = xml.etree.ElementTree.parse(file_path).getroot()
 
-    for addon in root.findall("./addons/addon"):
+    for addon in root.findall("./addon"):
         xbmc.executebuiltin("InstallAddon({id})".format(id = addon.attrib["id"]), True)
 
 

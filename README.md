@@ -17,28 +17,24 @@ The structure of the ``build.xml`` file is the following:
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<build>
-  <addons>
-    <addon id="[addon_1]" />
-    <addon id="[addon_2]" />
-    ...
-  </addons>
-</build>
+<addons>
+  <addon id="[addon_1]" />
+  <addon id="[addon_2]" />
+  ...
+</addons>
 ```
 
 For example:
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<build>
-  <addons>
-    <addon id="metadata.universal" />
-    <addon id="plugin.video.youtube" />
-    <addon id="service.subtitles.opensubtitles" />
-    <addon id="weather.yahoo" />
-    <addon id="skin.eminence.2" />
-  </addons>
-</build>
+<addons>
+  <addon id="metadata.universal" />
+  <addon id="plugin.video.youtube" />
+  <addon id="service.subtitles.opensubtitles" />
+  <addon id="weather.yahoo" />
+  <addon id="skin.eminence.2" />
+</addons>
 ```
 
 Once the ``build.xml`` file has been created, simply execute the Build Restore program to launch the restore process.
