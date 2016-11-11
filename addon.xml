@@ -18,8 +18,6 @@
     <email>flavien@charlon.net</email>
     <assets>
       <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.jpg</fanart>
-      <screenshot>resources/screenshot-01.jpg</screenshot>
     </assets>
     <news>Released the initial version</news>
   </extension>
