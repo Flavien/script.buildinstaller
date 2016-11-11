@@ -1,7 +1,7 @@
 Build Restore
 =============
 
-Build Restore is a Kodi add-on that restores a list of add-ons from their online sources. This add-on facilitates the distribution of Kodi builds as only a list of add-ons has to be distributed.
+Build Restore is a Kodi add-on that restores a list of add-ons from their online sources. This add-on facilitates the distribution of Kodi builds as only a list of add-ons and their respective repositories have to be distributed.
 
 Installation
 ------------
@@ -36,6 +36,8 @@ For example:
   <addon id="skin.eminence.2" />
 </addons>
 ```
+
+The add-on repositories from which the add-ons should be fetched must be installed and enabled for the restore process to work.
 
 Once the ``build.xml`` file has been created, simply execute the Build Restore program to launch the restore process.
 
