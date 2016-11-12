@@ -1,12 +1,12 @@
-Build Restore
+Build Installer
 =============
 
-Build Restore is a Kodi add-on that restores a list of add-ons from their online sources. This add-on facilitates the distribution of Kodi builds as only a list of add-ons and their respective repositories have to be distributed.
+Build Installer is a Kodi add-on that installs a list of add-ons from their online sources. This add-on facilitates the distribution of Kodi builds as only a list of add-ons and their respective repositories have to be distributed.
 
 Installation
 ------------
 
-Install Build Restore by going to the Kodi add-ons settings, select "Install from zip file", and select the zip file at ``https://github.com/Flavien/script.buildrestore/archive/master.zip``.
+Install Build Installer by going to the Kodi add-ons settings, select "Install from zip file", and select the zip file at ``https://github.com/Flavien/script.buildinstaller/archive/master.zip``.
 
 Instructions
 ------------
@@ -37,9 +37,9 @@ For example:
 </addons>
 ```
 
-The add-on repositories from which the add-ons should be fetched must be installed and enabled for the restore process to work.
+The add-on repositories from which the add-ons should be fetched must be installed and enabled for the installation process to work.
 
-Once the ``build.xml`` file has been created, simply execute the Build Restore program to launch the restore process.
+Once the ``build.xml`` file has been created, simply execute the Build Installer program to launch the installation process.
 
 License
 -------
