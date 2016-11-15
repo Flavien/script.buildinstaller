@@ -12,27 +12,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
 import xbmcaddon
 import xbmcgui
-
-import os
 import xml.etree.ElementTree
 
-
-# Install all required addons
-def execute():
-    file_path = xbmc.translatePath(os.path.join("special://profile/", "build.xml"))
+def run():
+    file_path = xbmc.translatePath("special://profile/build.xml")
 
     root = xml.etree.ElementTree.parse(file_path).getroot()
 
     for addon in root.findall("./addon"):
-        xbmc.executebuiltin("InstallAddon({id})".format(id = addon.attrib["id"]), True)
+        command = "InstallAddon({id})".format(id = addon.attrib["id"])
+        xbmc.executebuiltin(command, True)
+
+    xbmcgui.Dialog().ok(
+        xbmcaddon.Addon().getAddonInfo("name"),
+        "All the add-ons have been installed successfully.")
 
 
-# Main script
-addon = xbmcaddon.Addon()
-addonname = addon.getAddonInfo("name")
-
-execute()
-
-xbmcgui.Dialog().ok(addonname, "The build has been restored successfully.")
+if __name__ == '__main__':
+    run()
