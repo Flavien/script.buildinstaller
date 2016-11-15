@@ -3,11 +3,6 @@ Build Installer
 
 Build Installer is a Kodi add-on that installs a list of add-ons from their online sources. This add-on facilitates the distribution of Kodi builds as only a list of add-ons and their respective repositories have to be distributed.
 
-Installation
-------------
-
-Install Build Installer by going to the Kodi add-ons settings, select "Install from zip file", and select the zip file at ``https://github.com/Flavien/script.buildinstaller/archive/master.zip``.
-
 Instructions
 ------------
 

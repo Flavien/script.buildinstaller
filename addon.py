@@ -23,8 +23,8 @@ def run():
     root = xml.etree.ElementTree.parse(file_path).getroot()
 
     for addon in root.findall("./addon"):
-        command = "InstallAddon({id})".format(id = addon.attrib["id"])
-        xbmc.executebuiltin(command, True)
+        function = "InstallAddon({id})".format(id = addon.attrib["id"])
+        xbmc.executebuiltin(function, True)
 
     xbmcgui.Dialog().ok(
         xbmcaddon.Addon().getAddonInfo("name"),
