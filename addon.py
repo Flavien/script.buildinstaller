@@ -31,5 +31,5 @@ def run():
         "All the add-ons have been installed successfully.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()
